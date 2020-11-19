@@ -16,10 +16,19 @@
         h3 {
             text-align: center;
             color: #1686bf;
-            font-size: 13px;
+            font-size: 15px;
         }
     }
-
+    .titulo{
+        padding: 10px 0 10px 10px;
+        background: #f1f1f1;
+        p{
+            color: #1686bf;
+            font-size: 20px;
+            text-align: center;
+            
+        }
+    }
     .header {
         background: aliceblue;
         display: flex;
@@ -56,7 +65,7 @@
     .ui-accordion {
         .ui-accordion-header {
             margin: 0;
-            color:cadetblue
+            color: #1686bf;
         }
         h3{
             font-weight: bolder;
