@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container .topo {
+  height: 30px;
+  padding: 10px 0 10px 10px;
+  background: #f1f1f1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.container .topo h3 {
+  text-align: center;
+  color: #1686bf;
+  font-size: 13px;
+}
+
+.container .header {
+  background: aliceblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
+}
+
+.container .header img {
+  width: 500px;
+}
+
+@media (max-width: 500px) {
+  .container .header img {
+    width: 301px;
+  }
+}
+
+.container #tabela {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.container #tabela tr td {
+  border-bottom: 1px dashed gray;
+  padding: 8px 0 8px 12px;
+  font-weight: bolder;
+  color: darkgoldenrod;
+  list-style-type: disc;
+}
+
+.container .ui-accordion .ui-accordion-header {
+  margin: 0;
+  color: cadetblue;
+}
+
+.container .ui-accordion h3 {
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.container .ui-accordion h3 span {
+  color: cadetblue;
+}
+
+.container .ui-accordion .ui-accordion-content {
+  padding: 5px;
+  background: transparent;
+}
+
+.container .ui-accordion ul li {
+  border-bottom: 1px dashed gray;
+  padding: 8px 0 8px 12px;
+  font-weight: bolder;
+  color: darkgoldenrod;
+}
+
+.container .ui-state-active, .container .ui-widget-content .ui-state-active, .container .ui-widget-header .ui-state-active, .container a.ui-button:active, .container .ui-button:active, .container .ui-button.ui-state-active:hover {
+  border: 0;
+  background: #1686bf;
+  font-weight: normal;
+  color: #ffffff !important;
+}
+/*# sourceMappingURL=estilo.css.map */
