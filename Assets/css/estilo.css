@@ -8,9 +8,7 @@
   height: 30px;
   padding: 10px 0 10px 10px;
   background: #f1f1f1;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -19,7 +17,7 @@
           justify-content: flex-start;
 }
 
-.container .topo h2 {
+.container .topo .txt-topo {
   text-align: center;
   color: #1686bf;
   font-size: 17px;
@@ -42,6 +40,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: auto;
   height: 200px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -55,6 +54,7 @@
 
 @media (max-width: 500px) {
   .container .header {
+    width: auto;
     height: 200px;
     display: -webkit-box;
     display: -ms-flexbox;
