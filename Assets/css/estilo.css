@@ -19,10 +19,10 @@
           justify-content: flex-start;
 }
 
-.container .topo h3 {
+.container .topo h2 {
   text-align: center;
   color: #1686bf;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .container .titulo {
@@ -32,19 +32,21 @@
 
 .container .titulo p {
   color: #1686bf;
-  font-size: 20px;
+  font-size: 16px;
+  font-weight: 700;
   text-align: center;
 }
 
 .container .header {
-  background: aliceblue;
+  background-image: url("../img/background.png");
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 200px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 20px;
+  padding: 20;
 }
 
 .container .header img {
@@ -52,8 +54,23 @@
 }
 
 @media (max-width: 500px) {
+  .container .header {
+    height: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-image: url("../img/background-mobile.png");
+  }
   .container .header img {
-    width: 301px;
+    width: 394px;
+    height: 131px;
   }
 }
 
@@ -96,7 +113,12 @@
   color: darkgoldenrod;
 }
 
-.container .ui-state-active, .container .ui-widget-content .ui-state-active, .container .ui-widget-header .ui-state-active, .container a.ui-button:active, .container .ui-button:active, .container .ui-button.ui-state-active:hover {
+.container .ui-state-active,
+.container .ui-widget-content .ui-state-active,
+.container .ui-widget-header .ui-state-active,
+.container a.ui-button:active,
+.container .ui-button:active,
+.container .ui-button.ui-state-active:hover {
   border: 0;
   background: #1686bf;
   font-weight: normal;
