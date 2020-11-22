@@ -10,10 +10,10 @@
 
         padding: 10px 0 10px 10px;
         background: #f1f1f1;
-        display: none;
+        display: flex;
         align-items: center;
         justify-content: flex-start;
-        .txt-topo{
+        h2 {
             text-align: center;
             color: #1686bf;
             font-size: 17px;
@@ -32,7 +32,6 @@
     .header {
         background-image: url("../img/background.png");
         display: flex;
-        width: auto;
         height: 200px;
         justify-content: center;
         padding: 20;
@@ -42,7 +41,7 @@
     }
     @media (max-width: "500px") {
         .header {
-            width: auto;
+            
             height: 200px;
             display: flex;
             justify-content: center;
